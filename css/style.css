@@ -1503,3 +1503,79 @@ a {
         padding: 24px 20px;
     }
 }
+/* ==========================================
+   EMPTY STATE - PÁGINAS SEM CONTEÚDO
+   ========================================== */
+
+.tag-empty-state {
+    margin-top: 32px;
+}
+
+.empty-state-text {
+    font-size: 16px;
+    color: var(--gray);
+    font-weight: 600;
+    font-style: italic;
+}
+
+.empty-illustration {
+    max-width: 500px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 60px 40px;
+    background: var(--light-gray);
+    border-radius: 16px;
+}
+
+.empty-icon {
+    font-size: 80px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+.empty-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 16px;
+}
+
+.empty-description {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--gray);
+    margin-bottom: 32px;
+}
+
+.empty-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.empty-btn:hover {
+    background: #085f7d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(10, 126, 164, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .empty-illustration {
+        margin: 60px auto;
+        padding: 40px 24px;
+    }
+    
+    .empty-icon {
+        font-size: 64px;
+    }
+    
+    .empty-title {
+        font-size: 24px;
+    }
+}
