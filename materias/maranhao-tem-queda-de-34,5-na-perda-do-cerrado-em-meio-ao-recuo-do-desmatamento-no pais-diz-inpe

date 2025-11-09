@@ -1,1 +1,141 @@
-html.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maranhão tem queda de 34,5% na perda do Cerrado - Ilha da Ciência</title>
+    <meta name="description" content="Segundo o Instituto Nacional de Pesquisas Espaciais, entre agosto de 2024 e julho deste ano o Cerrado registrou o maior recuo da história">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Ilha da Ciência</h1>
+                <p class="slogan">Conhecimento que nasce no Maranhão e conecta o mundo</p>
+            </div>
+            <nav class="nav" id="mainNav">
+                <a href="../index.html" class="nav-link">Início</a>
+                <a href="#" class="nav-link">Ciência</a>
+                <a href="#" class="nav-link">Tecnologia</a>
+                <a href="#" class="nav-link">Meio Ambiente</a>
+                <a href="#" class="nav-link">Saúde</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Article Page -->
+    <article class="article-page">
+        <div class="container">
+            <!-- Article Header -->
+            <header class="article-header">
+                <span class="article-category">Meio Ambiente</span>
+                <h1 class="article-title">Maranhão tem queda de 34,5% na perda do Cerrado, em meio ao recuo do desmatamento no país, diz Inpe</h1>
+                <p class="article-subtitle">Segundo o Instituto Nacional de Pesquisas Espaciais, entre agosto de 2024 e julho deste ano o Cerrado registrou o maior recuo da história: a área desmatada despencou de 1.897,44 km² para 1.251,35 km², uma redução de 34,5%.</p>
+                <div class="article-meta">
+                    <span>📅 9 de novembro de 2025</span>
+                    <span>👤 Por Lucas de Araújo</span>
+                    <span>⏱️ 6 min de leitura</span>
+                </div>
+            </header>
+
+            <!-- Featured Image -->
+            <figure class="article-featured-image">
+                <img src="https://drive.google.com/uc?export=view&id=1NELjAt1X7zci29o18hYA4wPnyy9KsVCV" alt="Cerrado maranhense">
+                <figcaption class="image-caption">Vegetação do Cerrado maranhense, bioma que representa 64% do território do estado</figcaption>
+            </figure>
+
+            <!-- Article Content -->
+            <div class="article-content">
+                <h2>Processo histórico</h2>
+
+                <p>Uma pesquisa sobre o espaço-temporal do desmatamento no estado, desenvolvida na <a href="https://tedebc.ufma.br/jspui/handle/tede/5886" target="_blank">Universidade Federal do Maranhão</a>, em São Luís, revela que o desmatamento é um processo histórico, com raízes que remontam ao período colonial. O estudo destaca que, a partir da década de 1950, com o surgimento de Brasília e a política de expansão agrícola, o Cerrado passou a ser visto como uma área de grande potencial agrícola. Ainda segundo a pesquisa, o desmatamento está articulado às relações econômicas, reforçando a predominância da pecuária no Maranhão.</p>
+
+                <p>O avanço sobre o bioma provoca diversos impactos, como perda da biodiversidade, alterações no regime de chuvas e aumento das temperaturas, resultando em extremos climáticos associados às emissões de dióxido de carbono.</p>
+
+                <blockquote>
+                    "A expansão e celeridade dos impactos ambientais, em razão do avanço no desmatamento, têm sido responsáveis pela degeneração dos domínios naturais, afetando toda a dinâmica ambiental em diferentes escalas geográficas. No Maranhão, o desmatamento vem ocasionando reduções expressivas nos biomas Amazônico e Cerrado, em diferentes proporções"
+                </blockquote>
+
+                <h2>Cerrado representa 64% do território maranhense</h2>
+
+                <p>Reconhecido como a savana mais rica do mundo em biodiversidade, o Cerrado cobre cerca de 64% do território maranhense, formando com a Amazônia e Caatinga um mosaico de paisagens. Apesar da sua importância, o bioma ainda é pouco conhecido no estado e figura entre as áreas prioritárias para pesquisa sobre vegetação lenhosa, de acordo com o <a href="https://www.gov.br/mma/pt-br" target="_blank">Ministério do Meio Ambiente e Mudança do Clima (MMA)</a>.</p>
+
+                <!-- YouTube Video Embed -->
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 30px 0;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zg2xnELQ6H0" title="Cerrado abriga 5% de toda a biodiversidade mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <p>Dados divulgados pelo <a href="https://www.gov.br/pt-br" target="_blank">Governo Federal</a> e <a href="https://www.gov.br/inpe/pt-br" target="_blank">Instituto Nacional de Pesquisas Espaciais (Inpe)</a> mostram que, entre agosto de 2024 e julho de 2025, o Maranhão apresentou a maior queda no desmatamento do Cerrado do país, sendo 34,5% de redução, número superior à média nacional, que foi 20,8%.</p>
+
+                <p>A Amazônia maranhense também registrou resultado positivo, com queda de 32,91% no desmatamento. Outro dado relevante é o recuo de 28,89% entre 1º de janeiro e 11 de agosto deste ano, em comparação com o mesmo período de 2024.</p>
+
+                <p>O secretário de Estado do Meio Ambiente e Recursos Naturais, Pedro Chagas, atribui os resultados ao esforço do governo maranhense no combate ao desmatamento.</p>
+
+                <blockquote>
+                    "Estamos promovendo ações contínuas não só para reduzir a perda da vegetação nativa, mas também para recuperar áreas florestais, mostrando que é possível fazer um desenvolvimento sustentável aliado à prevenção e ao trabalho integrado" - Pedro Chagas, secretário de Estado do Meio Ambiente e Recursos Naturais
+                </blockquote>
+
+                <h2>Biomas Amazônico e Cerrado</h2>
+
+                <p>Em debates recentes, o MMA destacou resultados positivos na redução do desmatamento tanto na Amazônia quanto no Cerrado. Segundo o <a href="https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/amazonia-registra-menor-indice-de-desmatamento-em-unidades-de-conservacao-desde-2008" target="_blank">Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</a>, responsável pelas unidades de conservação federais, o índice de desmatamento registrado entre agosto de 2024 e julho de 2025 é o menor desde 2008, com 134 km² desmatados no país.</p>
+
+                <p>De forma geral, a Amazônia Legal apresentou queda de 11,8% no desmatamento, alcançando a terceira menor taxa desde 1988. No Cerrado, a redução foi de 11,49% em relação ao ano anterior.</p>
+
+                <blockquote>
+                    "A retomada da presença do Instituto Chico Mendes nos territórios tem sido decisiva para este resultado positivo. Isso foi possível com o reforço da fiscalização, o combate às ilegalidades, a recomposição de conselhos participativos, a reativação de políticas sociais voltadas a povos e comunidades tradicionais e a aquisição de veículos e equipamentos, entre outras ações" - Mauro Pires, presidente do ICMBio
+                </blockquote>
+
+                <h2>Maranhão na linha de frente</h2>
+
+                <p>A <a href="https://www.sema.ma.gov.br/" target="_blank">Secretaria de Estado do Meio Ambiente e Recursos Naturais (Sema)</a> do Maranhão desenvolve diversas iniciativas no âmbito dos programas <a href="https://www.ma.gov.br/noticias/floresta-viva-maranhao-foi-destaque-na-cop29-sobre-compromissos-com-a-sustentabilidade" target="_blank">"Floresta Viva Maranhão"</a> e <a href="https://www.ma.gov.br/noticias/maranhao-sem-queimadas-avanca-em-acoes-preventivas-de-combate-a-incendios-florestais-no-estado" target="_blank">"Maranhão Sem Queimadas"</a>. Essas ações fazem parte da estratégia do Governo do Estado para combater os impactos ambientais e recuperar áreas degradadas, por meio de intensificação do combate às queimadas no período de estiagem, monitoramento e prevenção de desastres ambientais, fortalecimento das unidades de conservação, bem como ações de fiscalização e educação ambiental.</p>
+
+                <hr style="margin: 50px 0; border: none; border-top: 2px solid #e0e0e0;">
+
+                <p style="color: #666; font-size: 0.9em;">
+                    <strong>Tags:</strong> Meio Ambiente • Cerrado Maranhense • Desmatamento
+                </p>
+
+                <p style="color: #666; font-size: 0.9em;">
+                    <strong>Redação e produção:</strong> Lucas de Araújo
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Ilha da Ciência</h3>
+                    <p>Conhecimento que nasce no Maranhão e conecta o mundo</p>
+                </div>
+                <div class="footer-categories">
+                    <h4>Editorias</h4>
+                    <ul>
+                        <li><a href="#">Ciência</a></li>
+                        <li><a href="#">Tecnologia</a></li>
+                        <li><a href="#">Meio Ambiente</a></li>
+                        <li><a href="#">Saúde</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ilha da Ciência. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
