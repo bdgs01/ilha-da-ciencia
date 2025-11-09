@@ -38,13 +38,13 @@
         <div class="container">
             <!-- Article Header -->
             <header class="article-header">
-                <span class="article-category">Meio Ambiente</span>
+                <span class="article-category cat-ambiente">Meio Ambiente</span>
                 <h1 class="article-title">Maranhão tem queda de 34,5% na perda do Cerrado, em meio ao recuo do desmatamento no país, diz Inpe</h1>
                 <p class="article-subtitle">Segundo o Instituto Nacional de Pesquisas Espaciais, entre agosto de 2024 e julho deste ano o Cerrado registrou o maior recuo da história: a área desmatada despencou de 1.897,44 km² para 1.251,35 km², uma redução de 34,5%.</p>
                 <div class="article-meta">
-                    <span>📅 9 de novembro de 2025</span>
-                    <span>👤 Por Lucas de Araújo</span>
-                    <span>⏱️ 6 min de leitura</span>
+                    <span>9 de novembro de 2025</span>
+                    <span>Por Lucas de Araújo</span>
+                    <span>6 min de leitura</span>
                 </div>
             </header>
 
@@ -71,8 +71,8 @@
                 <p>Reconhecido como a savana mais rica do mundo em biodiversidade, o Cerrado cobre cerca de 64% do território maranhense, formando com a Amazônia e Caatinga um mosaico de paisagens. Apesar da sua importância, o bioma ainda é pouco conhecido no estado e figura entre as áreas prioritárias para pesquisa sobre vegetação lenhosa, de acordo com o <a href="https://www.gov.br/mma/pt-br" target="_blank">Ministério do Meio Ambiente e Mudança do Clima (MMA)</a>.</p>
 
                 <!-- YouTube Video Embed -->
-                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 30px 0;">
-                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zg2xnELQ6H0" title="Cerrado abriga 5% de toda a biodiversidade mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 40px 0; border-radius: 12px;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;" src="https://www.youtube.com/embed/zg2xnELQ6H0?si=_n_mreRT1GdyDoN-" title="Cerrado abriga 5% de toda a biodiversidade mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <p>Dados divulgados pelo <a href="https://www.gov.br/pt-br" target="_blank">Governo Federal</a> e <a href="https://www.gov.br/inpe/pt-br" target="_blank">Instituto Nacional de Pesquisas Espaciais (Inpe)</a> mostram que, entre agosto de 2024 e julho de 2025, o Maranhão apresentou a maior queda no desmatamento do Cerrado do país, sendo 34,5% de redução, número superior à média nacional, que foi 20,8%.</p>
@@ -121,7 +121,7 @@
                     <p>Conhecimento que nasce no Maranhão e conecta o mundo</p>
                 </div>
                 <div class="footer-categories">
-                    <h4>Editorias</h4>
+                    <h4>Tópicos</h4>
                     <ul>
                         <li><a href="#">Ciência</a></li>
                         <li><a href="#">Tecnologia</a></li>
