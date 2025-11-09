@@ -776,3 +776,101 @@ a {
         font-size: 17px;
     }
 }
+/* ==========================================
+   MELHORIAS VISUAIS
+   ========================================== */
+
+/* Destaque para o botão TEXTOS no menu */
+.nav-link-special {
+    background: var(--accent-magenta);
+    color: var(--white) !important;
+    padding: 8px 16px !important;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.nav-link-special:hover {
+    background: #e0005f;
+    transform: translateY(-2px);
+}
+
+.nav-link-special::after {
+    display: none;
+}
+
+/* Subtítulo menor */
+.article-subtitle {
+    font-size: 19px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 24px !important;
+}
+
+/* Meta informações mais bonitas */
+.article-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: var(--gray);
+    background: var(--light-gray);
+    padding: 16px 24px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.meta-separator {
+    color: #ccc;
+    font-weight: 300;
+}
+
+/* Hiperlinks com destaque */
+.article-content a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    transition: all 0.3s ease;
+}
+
+.article-content a:hover {
+    color: var(--accent-magenta);
+    text-decoration-color: var(--accent-magenta);
+}
+
+/* Categoria clicável */
+.article-category {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.article-category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .article-meta {
+        flex-direction: column;
+        gap: 8px;
+        padding: 14px 18px;
+    }
+    
+    .meta-separator {
+        display: none;
+    }
+    
+    .nav-link-special {
+        width: 100%;
+        text-align: left;
+        background: var(--accent-magenta);
+    }
+}
