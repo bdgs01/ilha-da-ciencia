@@ -1605,3 +1605,13 @@ a {
 .image-caption {
     text-align: center;
 }
+/* PADRONIZANDO LEGENDA DE VÍDEOS E IMAGENS */
+.image-caption {
+    font-size: 0.95em;
+    color: #888;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    font-style: italic;
+    line-height: 1.5;
+}
