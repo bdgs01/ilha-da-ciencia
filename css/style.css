@@ -1579,3 +1579,29 @@ a {
         font-size: 24px;
     }
 }
+/* ==========================================
+   CENTRALIZAR IMAGENS DO ARTIGO
+   ========================================== */
+
+.article-image {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.article-image img {
+    margin: 0 auto;
+    display: block;
+}
+
+.article-featured-image {
+    text-align: center;
+}
+
+.article-featured-image img {
+    margin: 0 auto;
+    display: block;
+}
+
+.image-caption {
+    text-align: center;
+}
