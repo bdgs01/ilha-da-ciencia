@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFMA é a melhor universidade do Maranhão no Ranking Universitário Folha 2025 - Ilha da Ciência</title>
+    <meta name="description" content="Somente UFMA, UEMA, CEUMA e UEMASUL aparecem no Ranking Universitário Folha; veja dados completos e o desempenho maranhense">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Ilha da Ciência</h1>
+                <p class="slogan">Conhecimento que nasce no Maranhão e conecta o mundo</p>
+            </div>
+            <nav class="nav" id="mainNav">
+                <a href="../index.html" class="nav-link">Início</a>
+                <a href="../materias/textos.html" class="nav-link">Textos</a>
+                <a href="../tags/ciencia.html" class="nav-link active">Ciência</a>
+                <a href="../tags/tecnologia.html" class="nav-link">Tecnologia</a>
+                <a href="../tags/meio-ambiente.html" class="nav-link">Meio Ambiente</a>
+                <a href="../tags/saude.html" class="nav-link">Saúde</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Article Page -->
+    <article class="article-page">
+        <div class="container">
+            <!-- Article Header -->
+            <header class="article-header">
+                <a href="../tags/ciencia.html" class="article-category cat-ciencia">Ciência</a>
+                <h1 class="article-title">UFMA é a melhor universidade do Maranhão no Ranking Universitário Folha 2025, mas universidades maranhenses estão fora do top 50 do Brasil</h1>
+                <p class="article-subtitle">Somente UFMA, UEMA, CEUMA e UEMA SUL aparecem no Ranking Universitário Folha</p>
+                <div class="article-meta">
+                    <span class="meta-item">📅 23 de novembro de 2025</span>
+                    <span class="meta-separator">•</span>
+                    <span class="meta-item">✍️ Por <strong>Lucas de Araújo</strong></span>
+                </div>
+            </header>
+
+            <!-- Featured Image -->
+            <figure class="article-featured-image">
+                <img src="https://i.ibb.co/60mGfr0h/eb0d6039-c220-41fc-b4fe-575092aadb03.jpg" alt="UFMA no RUF 2025">
+                <figcaption class="image-caption">UFMA se mantém como a melhor universidade do Maranhão, de acordo com Ranking Universitário Folha. / Imagem: SCE UFMA.</figcaption>
+            </figure>
+
+            <!-- Article Content -->
+            <div class="article-content">
+                <p>
+                  A Universidade Federal do Maranhão (UFMA) aparece como a melhor universidade do Maranhão no <a href="https://ruf.folha.uol.com.br/2025/ranking-de-universidades/principal/" target="_blank">Ranking Universitário Folha (RUF)</a>. Além da UFMA, a Universidade Estadual do Maranhão (UEMA), o Centro Universitário do Maranhão (CEUMA) e a Universidade Estadual da Região Tocantina do Maranhão (UEMASUL) são as demais universidades que aparecem no ranking.
+                </p>
+
+                <!-- Gráfico interativo: Ranking das 4 melhores universidades do Maranhão (RUF 2025) -->
+<section class="ma-ranking-ruf-chart" aria-labelledby="ma-ranking-ruf-title">
+  <style>
+    .ma-ranking-ruf-chart {
+      margin: 40px 0;
+      padding: 24px 18px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #f5f7fb 0%, #ffffff 60%, #eef5ff 100%);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ma-ranking-ruf-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .ma-ranking-ruf-title {
+      font-family: "Merriweather", serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1e2a3b;
+    }
+
+    .ma-ranking-ruf-subtitle {
+      font-size: 0.9rem;
+      color: #56627a;
+      margin-top: 4px;
+    }
+
+    .ma-ranking-ruf-badge {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #1a73e8;
+      color: #fff;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .ma-ranking-ruf-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      align-items: center;
+      font-size: 0.8rem;
+      color: #6c768b;
+      margin-bottom: 16px;
+    }
+
+    .ma-ranking-ruf-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+      margin-right: 6px;
+    }
+
+    .ma-ranking-ruf-dot.publica {
+      background: #f1c40f;
+    }
+
+    .ma-ranking-ruf-dot.privada {
+      background: #3498db;
+    }
+
+    .ma-ranking-ruf-axis-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #7b8597;
+      margin-bottom: 6px;
+    }
+
+    .ma-ranking-ruf-bars {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .ma-ranking-ruf-bar {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .ma-ranking-ruf-bar-fill {
+      --bar-size: 100;
+      height: 36px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #1a73e8, #49a6ff);
+      opacity: 0.95;
+      width: calc(40% + (var(--bar-size) * 0.5%)); /* para criar diferença visual entre 1º e 4º */
+      max-width: 100%;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+      display: flex;
+      align-items: center;
+      padding: 0 14px;
+    }
+
+    .ma-ranking-ruf-bar-fill.is-public {
+      background: linear-gradient(90deg, #f1c40f, #f39c12);
+    }
+
+    .ma-ranking-ruf-bar-fill.is-private {
+      background: linear-gradient(90deg, #3498db, #5dade2);
+    }
+
+    .ma-ranking-ruf-bar-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      color: #ffffff;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .ma-ranking-ruf-uni {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ma-ranking-ruf-uni-name {
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .ma-ranking-ruf-uni-state {
+      font-size: 0.75rem;
+      opacity: 0.9;
+    }
+
+    .ma-ranking-ruf-rank-state {
+      font-size: 1rem;
+    }
+
+    .ma-ranking-ruf-bar:hover .ma-ranking-ruf-bar-fill,
+    .ma-ranking-ruf-bar:focus-within .ma-ranking-ruf-bar-fill {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+      opacity: 1;
+    }
+
+    .ma-ranking-ruf-tooltip {
+      position: fixed;
+      z-index: 9999;
+      pointer-events: none;
+      background: #1f2933;
+      color: #f9fafb;
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      max-width: 260px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      line-height: 1.4;
+    }
+
+    .ma-ranking-ruf-tooltip strong {
+      font-weight: 700;
+    }
+
+    .ma-ranking-ruf-tooltip small {
+      display: block;
+      font-size: 0.75rem;
+      opacity: 0.9;
+      margin-top: 2px;
+    }
+
+    .ma-ranking-ruf-tooltip[hidden] {
+      display: none !important;
+    }
+
+    .ma-ranking-ruf-click-hint {
+      font-size: 0.78rem;
+      color: #8a93a7;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .ma-ranking-ruf-chart {
+        padding: 18px 14px;
+      }
+
+      .ma-ranking-ruf-title {
+        font-size: 1.05rem;
+      }
+
+      .ma-ranking-ruf-subtitle {
+        font-size: 0.8rem;
+      }
+
+      .ma-ranking-ruf-bar-fill {
+        height: 40px;
+        width: 100%; /* em telas pequenas, todos ocupam a largura inteira */
+      }
+
+      .ma-ranking-ruf-rank-state {
+        font-size: 1.05rem;
+      }
+
+      .ma-ranking-ruf-uni-name {
+        font-size: 0.9rem;
+      }
+
+      .ma-ranking-ruf-uni-state {
+        font-size: 0.76rem;
+      }
+    }
+  </style>
+
+  <div class="ma-ranking-ruf-header">
+    <div>
+      <h2 class="ma-ranking-ruf-title" id="ma-ranking-ruf-title">
+        Ranking RUF 2025 — Universidades do Maranhão
+      </h2>
+      <p class="ma-ranking-ruf-subtitle">
+        Posição das instituições maranhenses no estado. Toque ou passe o mouse para ver o desempenho nacional.
+      </p>
+    </div>
+    <span class="ma-ranking-ruf-badge">RUF 2025</span>
+  </div>
+
+  <div class="ma-ranking-ruf-legend" aria-hidden="true">
+    <span><span class="ma-ranking-ruf-dot publica"></span>Pública</span>
+    <span><span class="ma-ranking-ruf-dot privada"></span>Privada</span>
+  </div>
+
+  <p class="ma-ranking-ruf-axis-label">Posição no Maranhão (1º a 4º lugar)</p>
+
+  <div class="ma-ranking-ruf-bars">
+    <!-- 1º lugar -->
+    <button
+      type="button"
+      class="ma-ranking-ruf-bar"
+      data-universidade="UFMA"
+      data-rank-estado="1º lugar no Maranhão"
+      data-rank-nacional="53º lugar no Brasil"
+      data-tipo="Universidade pública"
+      aria-label="UFMA, 1º lugar no Maranhão. Toque para mais detalhes."
+    >
+      <div class="ma-ranking-ruf-bar-fill is-public" style="--bar-size: 100;">
+        <div class="ma-ranking-ruf-bar-label">
+          <div class="ma-ranking-ruf-uni">
+            <span class="ma-ranking-ruf-uni-name">UFMA</span>
+            <span class="ma-ranking-ruf-uni-state">Universidade Federal do Maranhão</span>
+          </div>
+          <span class="ma-ranking-ruf-rank-state">1º</span>
+        </div>
+      </div>
+    </button>
+
+    <!-- 2º lugar -->
+    <button
+      type="button"
+      class="ma-ranking-ruf-bar"
+      data-universidade="UEMA"
+      data-rank-estado="2º lugar no Maranhão"
+      data-rank-nacional="119º lugar no Brasil"
+      data-tipo="Universidade pública"
+      aria-label="UEMA, 2º lugar no Maranhão. Toque para mais detalhes."
+    >
+      <div class="ma-ranking-ruf-bar-fill is-public" style="--bar-size: 80;">
+        <div class="ma-ranking-ruf-bar-label">
+          <div class="ma-ranking-ruf-uni">
+            <span class="ma-ranking-ruf-uni-name">UEMA</span>
+            <span class="ma-ranking-ruf-uni-state">Universidade Estadual do Maranhão</span>
+          </div>
+          <span class="ma-ranking-ruf-rank-state">2º</span>
+        </div>
+      </div>
+    </button>
+
+    <!-- 3º lugar -->
+    <button
+      type="button"
+      class="ma-ranking-ruf-bar"
+      data-universidade="Uniceuma"
+      data-rank-estado="3º lugar no Maranhão"
+      data-rank-nacional="167º lugar no Brasil"
+      data-tipo="Universidade privada"
+      aria-label="Uniceuma, 3º lugar no Maranhão. Toque para mais detalhes."
+    >
+      <div class="ma-ranking-ruf-bar-fill is-private" style="--bar-size: 65;">
+        <div class="ma-ranking-ruf-bar-label">
+          <div class="ma-ranking-ruf-uni">
+            <span class="ma-ranking-ruf-uni-name">Uniceuma</span>
+            <span class="ma-ranking-ruf-uni-state">Centro Universitário do Maranhão</span>
+          </div>
+          <span class="ma-ranking-ruf-rank-state">3º</span>
+        </div>
+      </div>
+    </button>
+
+    <!-- 4º lugar -->
+    <button
+      type="button"
+      class="ma-ranking-ruf-bar"
+      data-universidade="Uemasul"
+      data-rank-estado="4º lugar no Maranhão"
+      data-rank-nacional="196º lugar no Brasil"
+      data-tipo="Universidade pública"
+      aria-label="Uemasul, 4º lugar no Maranhão. Toque para mais detalhes."
+    >
+      <div class="ma-ranking-ruf-bar-fill is-public" style="--bar-size: 55;">
+        <div class="ma-ranking-ruf-bar-label">
+          <div class="ma-ranking-ruf-uni">
+            <span class="ma-ranking-ruf-uni-name">Uemasul</span>
+            <span class="ma-ranking-ruf-uni-state">UE da Região Tocantina do Maranhão</span>
+          </div>
+          <span class="ma-ranking-ruf-rank-state">4º</span>
+        </div>
+      </div>
+    </button>
+  </div>
+
+  <p class="ma-ranking-ruf-click-hint">
+    Dados obtidos a partir do Ranking Universitário Folha. \ Gráfico: Ilha da Ciência.
+  </p>
+
+  <div class="ma-ranking-ruf-tooltip" id="ma-ranking-ruf-tooltip" hidden></div>
+
+  <script>
+    (function () {
+      const bars = document.querySelectorAll(".ma-ranking-ruf-chart .ma-ranking-ruf-bar");
+      const tooltip = document.getElementById("ma-ranking-ruf-tooltip");
+
+      if (!bars.length || !tooltip) return;
+
+      let clickPinned = false;
+
+      function showTooltip(content, x, y) {
+        tooltip.innerHTML = content;
+        tooltip.hidden = false;
+
+        const padding = 10;
+        const tooltipRect = tooltip.getBoundingClientRect();
+        let left = x + padding;
+        let top = y + padding;
+
+        if (left + tooltipRect.width > window.innerWidth - padding) {
+          left = window.innerWidth - tooltipRect.width - padding;
+        }
+
+        if (top + tooltipRect.height > window.innerHeight - padding) {
+          top = y - tooltipRect.height - padding;
+        }
+
+        tooltip.style.left = left + "px";
+        tooltip.style.top = top + "px";
+      }
+
+      function hideTooltip() {
+        if (!clickPinned) {
+          tooltip.hidden = true;
+        }
+      }
+
+      bars.forEach((bar) => {
+        const uni = bar.dataset.universidade;
+        const rankEstado = bar.dataset.rankEstado;
+        const rankNacional = bar.dataset.rankNacional;
+        const tipo = bar.dataset.tipo;
+
+        // HOVER: mostra posição nacional (e estadual)
+        bar.addEventListener("mouseenter", (e) => {
+          clickPinned = false;
+          const rect = bar.getBoundingClientRect();
+          const content =
+            "<strong>" +
+            uni +
+            "</strong><small>" +
+            rankEstado +
+            "</small><small>" +
+            rankNacional +
+            "</small>";
+          showTooltip(content, rect.left, rect.top);
+        });
+
+        bar.addEventListener("mousemove", (e) => {
+          if (!tooltip.hidden && !clickPinned) {
+            showTooltip(tooltip.innerHTML, e.clientX, e.clientY);
+          }
+        });
+
+        bar.addEventListener("mouseleave", hideTooltip);
+
+        // CLICK: destaca se é pública ou privada
+        bar.addEventListener("click", (e) => {
+          e.stopPropagation();
+          clickPinned = true;
+          const rect = bar.getBoundingClientRect();
+          const content =
+            "<strong>" +
+            uni +
+            "</strong><small>" +
+            rankEstado +
+            "</small><small>" +
+            rankNacional +
+            "</small><small><strong>" +
+            tipo +
+            "</strong></small>";
+          showTooltip(content, rect.left, rect.top);
+        });
+      });
+
+      // Clique fora do gráfico desfixa o tooltip
+      document.addEventListener("click", (e) => {
+        const isInside = e.target.closest(".ma-ranking-ruf-chart");
+        if (!isInside) {
+          clickPinned = false;
+          tooltip.hidden = true;
+        }
+      });
+
+      // Em telas sensíveis ao toque, usar apenas clique/tap
+      if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {
+        bars.forEach((bar) => {
+          bar.removeEventListener("mouseenter", () => {});
+          bar.removeEventListener("mouseleave", () => {});
+        });
+      }
+    })();
+  </script>
+</section>
+        
+
+                <p>
+                    Apesar de quatro universidades maranhenses no ranking, a distância para as principais universidades do país ainda é grande. A melhor colocada do Maranhão, a UFMA, aparece na 53ª posição. Não há nenhuma universidade nordestina entre as 10 melhores. As melhores universidades nordestinas no ranking geral do RUF de 2025 são a Universidade Federal de Pernambuco (UFPE), em 12º lugar, seguida pela Universidade Federal da Bahia (UFBA), em 14º, e a Universidade Federal do Rio Grande do Norte (UFRN), em 17º. A Universidade Federal do Ceará (UFC) também se destaca, aparecendo em 19º lugar no levantamento.
+                </p>
+
+                <p>
+                    A Universidade Estadual do Maranhão, por exemplo, alcançou sua melhor colocação no RUF 2025. Em comparação com a edição de 2023, a instituição subiu 42 posições e registrou o maior avanço entre as universidades maranhenses avaliadas.
+                </p>
+
+                <!-- Gráfico de linhas: distância entre as 6 melhores universidades do Brasil e as 4 melhores do Maranhão (RUF 2025) -->
+<section class="ma-line-ranking-chart" aria-labelledby="ma-line-ranking-title">
+  <style>
+    .ma-line-ranking-chart {
+      margin: 40px 0;
+      padding: 24px 18px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #f5f7fb 0%, #ffffff 60%, #eef5ff 100%);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ma-line-ranking-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .ma-line-ranking-title {
+      font-family: "Merriweather", serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1e2a3b;
+    }
+
+    .ma-line-ranking-subtitle {
+      font-size: 0.9rem;
+      color: #56627a;
+      margin-top: 4px;
+    }
+
+    .ma-line-ranking-badge {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #1a73e8;
+      color: #fff;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .ma-line-ranking-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      align-items: center;
+      font-size: 0.8rem;
+      color: #6c768b;
+      margin-bottom: 12px;
+    }
+
+    .ma-line-ranking-legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .ma-line-ranking-color-box {
+      width: 14px;
+      height: 4px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    .ma-line-ranking-color-brazil {
+      background: linear-gradient(90deg, #1a73e8, #49a6ff);
+    }
+
+    .ma-line-ranking-color-ma {
+      background: linear-gradient(90deg, #f1c40f, #f39c12);
+    }
+
+    .ma-line-ranking-axis-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #7b8597;
+      margin-bottom: 4px;
+    }
+
+    .ma-line-ranking-chart-wrapper {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .ma-line-ranking-chart-wrapper svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .ma-line-ranking-grid-line {
+      stroke: #e3e7f0;
+      stroke-width: 1;
+      stroke-dasharray: 4 4;
+    }
+
+    .ma-line-ranking-axis {
+      stroke: #c3cad8;
+      stroke-width: 1.2;
+    }
+
+    .ma-line-ranking-path-brazil {
+      fill: none;
+      stroke: url(#maLineBrazilGradient);
+      stroke-width: 2.5;
+    }
+
+    .ma-line-ranking-path-ma {
+      fill: none;
+      stroke: url(#maLineMaGradient);
+      stroke-width: 2.5;
+    }
+
+    .ma-line-ranking-point {
+      cursor: pointer;
+      stroke-width: 1.5;
+    }
+
+    .ma-line-ranking-point.brazil {
+      fill: #ffffff;
+      stroke: #1a73e8;
+    }
+
+    .ma-line-ranking-point.ma {
+      fill: #ffffff;
+      stroke: #f39c12;
+    }
+
+    .ma-line-ranking-point:hover {
+      stroke-width: 2.2;
+    }
+
+    .ma-line-ranking-tooltip {
+      position: fixed;
+      z-index: 9999;
+      pointer-events: none;
+      background: #1f2933;
+      color: #f9fafb;
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      max-width: 260px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      line-height: 1.4;
+    }
+
+    .ma-line-ranking-tooltip strong {
+      font-weight: 700;
+    }
+
+    .ma-line-ranking-tooltip small {
+      display: block;
+      font-size: 0.75rem;
+      opacity: 0.9;
+      margin-top: 2px;
+    }
+
+    .ma-line-ranking-tooltip[hidden] {
+      display: none !important;
+    }
+
+    .ma-line-ranking-note {
+      font-size: 0.78rem;
+      color: #8a93a7;
+      margin-top: 10px;
+    }
+
+    .ma-line-ranking-lists {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 16px;
+      margin-top: 18px;
+      font-size: 0.82rem;
+      color: #4a5264;
+    }
+
+    .ma-line-ranking-lists h3 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+      color: #2c3e50;
+    }
+
+    .ma-line-ranking-lists ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .ma-line-ranking-lists li {
+      margin-bottom: 4px;
+    }
+
+    @media (max-width: 700px) {
+      .ma-line-ranking-chart {
+        padding: 18px 14px;
+      }
+
+      .ma-line-ranking-title {
+        font-size: 1.05rem;
+      }
+
+      .ma-line-ranking-subtitle {
+        font-size: 0.8rem;
+      }
+
+      .ma-line-ranking-lists {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="ma-line-ranking-header">
+    <div>
+      <h2 class="ma-line-ranking-title" id="ma-line-ranking-title">
+        Distância entre as melhores universidades do Brasil e do Maranhão (RUF 2025)
+      </h2>
+      <p class="ma-line-ranking-subtitle">
+        Quanto mais à esquerda e mais acima, melhor a posição no ranking nacional.
+      </p>
+    </div>
+    <span class="ma-line-ranking-badge">RUF 2025</span>
+  </div>
+
+  <div class="ma-line-ranking-legend" aria-hidden="true">
+    <span class="ma-line-ranking-legend-item">
+      <span class="ma-line-ranking-color-box ma-line-ranking-color-brazil"></span>
+      Top 6 do Brasil
+    </span>
+    <span class="ma-line-ranking-legend-item">
+      <span class="ma-line-ranking-color-box ma-line-ranking-color-ma"></span>
+      Top 4 do Maranhão
+    </span>
+  </div>
+
+  <p class="ma-line-ranking-axis-label">Posição nacional (Ranking Universitário Folha)</p>
+
+  <div class="ma-line-ranking-chart-wrapper">
+    <svg
+      id="ma-line-chart-svg"
+      viewBox="0 0 640 320"
+      role="img"
+      aria-label="Gráfico de linhas mostrando a diferença entre as 6 melhores universidades do Brasil e as 4 melhores do Maranhão no Ranking Universitário Folha 2025."
+    >
+      <defs>
+        <linearGradient id="maLineBrazilGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#1a73e8" />
+          <stop offset="100%" stop-color="#49a6ff" />
+        </linearGradient>
+        <linearGradient id="maLineMaGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#f1c40f" />
+          <stop offset="100%" stop-color="#f39c12" />
+        </linearGradient>
+      </defs>
+
+      <!-- Eixos -->
+      <line class="ma-line-ranking-axis" x1="60" y1="270" x2="610" y2="270" />
+      <line class="ma-line-ranking-axis" x1="60" y1="40" x2="60" y2="270" />
+
+      <!-- Linhas de grade horizontais (para visualização da distância) -->
+      <line class="ma-line-ranking-grid-line" x1="60" y1="80" x2="610" y2="80" />
+      <line class="ma-line-ranking-grid-line" x1="60" y1="140" x2="610" y2="140" />
+      <line class="ma-line-ranking-grid-line" x1="60" y1="200" x2="610" y2="200" />
+
+      <!-- Labels aproximadas do eixo Y (posição nacional) -->
+      <text x="56" y="84" font-size="10" text-anchor="end" fill="#7b8597">1–10</text>
+      <text x="56" y="144" font-size="10" text-anchor="end" fill="#7b8597">50–100</text>
+      <text x="56" y="204" font-size="10" text-anchor="end" fill="#7b8597">150–200</text>
+      <text x="56" y="270" font-size="10" text-anchor="end" fill="#7b8597">200+</text>
+
+      <!-- As linhas e pontos serão inseridos via JavaScript -->
+      <g id="ma-line-chart-brazil"></g>
+      <g id="ma-line-chart-ma"></g>
+    </svg>
+  </div>
+
+  <p class="ma-line-ranking-note">
+    Informações do Ranking Universitário Folha. Dados obtidos em 23 de novembro de 2025. Gráfico: Ilha da Ciência.
+  </p>
+
+  <!-- Listas de apoio: 6 melhores do Brasil (em cima) e 4 melhores do Maranhão (embaixo) -->
+  <div class="ma-line-ranking-lists">
+    <div>
+      <h3>Top 6 do Brasil (posição nacional)</h3>
+      <ul>
+        <li>1º — Universidade de São Paulo (USP)</li>
+        <li>2º — Universidade Estadual de Campinas (Unicamp)</li>
+        <li>3º — Universidade Federal do Rio Grande do Sul (UFRGS)</li>
+        <li>4º — Universidade Federal de Minas Gerais (UFMG)</li>
+        <li>5º — Universidade Federal do Rio de Janeiro (UFRJ)</li>
+        <li>6º — Universidade Estadual Paulista (Unesp)</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Top 4 do Maranhão (posição nacional)</h3>
+      <ul>
+        <li>53º — Universidade Federal do Maranhão (UFMA)</li>
+        <li>119º — Universidade Estadual do Maranhão (UEMA)</li>
+        <li>167º — Centro Universitário do Maranhão (Uniceuma)</li>
+        <li>196º — Universidade Estadual da Região Tocantina do Maranhão (UEMASUL)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ma-line-ranking-tooltip" id="ma-line-ranking-tooltip" hidden></div>
+
+  <script>
+    (function () {
+      const svg = document.getElementById("ma-line-chart-svg");
+      const groupBrazil = document.getElementById("ma-line-chart-brazil");
+      const groupMa = document.getElementById("ma-line-chart-ma");
+      const tooltip = document.getElementById("ma-line-ranking-tooltip");
+
+      if (!svg || !groupBrazil || !groupMa || !tooltip) return;
+
+      const width = 640;
+      const height = 320;
+      const padding = { left: 60, right: 30, top: 40, bottom: 50 };
+
+      // Dados: posição nacional
+      const dataBrazil = [
+        { sigla: "USP", nome: "Universidade de São Paulo (USP)", rank: 1 },
+        { sigla: "Unicamp", nome: "Universidade Estadual de Campinas (Unicamp)", rank: 2 },
+        { sigla: "UFRGS", nome: "Universidade Federal do Rio Grande do Sul (UFRGS)", rank: 3 },
+        { sigla: "UFMG", nome: "Universidade Federal de Minas Gerais (UFMG)", rank: 4 },
+        { sigla: "UFRJ", nome: "Universidade Federal do Rio de Janeiro (UFRJ)", rank: 5 },
+        { sigla: "Unesp", nome: "Universidade Estadual Paulista (Unesp)", rank: 6 }
+      ];
+
+      const dataMa = [
+        { sigla: "UFMA", nome: "Universidade Federal do Maranhão (UFMA)", rank: 53 },
+        { sigla: "UEMA", nome: "Universidade Estadual do Maranhão (UEMA)", rank: 119 },
+        { sigla: "Uniceuma", nome: "Centro Universitário do Maranhão (Uniceuma)", rank: 167 },
+        { sigla: "UEMASUL", nome: "Universidade Estadual da Região Tocantina do Maranhão (UEMASUL)", rank: 196 }
+      ];
+
+      const minRank = 1;
+      const maxRank = 200; // limite superior para visualização
+
+      const chartWidth = width - padding.left - padding.right;
+      const chartHeight = height - padding.top - padding.bottom;
+
+      function xForRank(rank) {
+        const clamped = Math.min(Math.max(rank, minRank), maxRank);
+        const t = (clamped - minRank) / (maxRank - minRank); // 0 (melhor) a 1 (pior)
+        return padding.left + t * chartWidth;
+      }
+
+      function yForRank(rank) {
+        const clamped = Math.min(Math.max(rank, minRank), maxRank);
+        const t = (clamped - minRank) / (maxRank - minRank);
+        // topo = melhor posição
+        return padding.top + t * chartHeight;
+      }
+
+      function buildPath(data) {
+        return data
+          .map((d) => `${xForRank(d.rank)},${yForRank(d.rank)}`)
+          .join(" ");
+      }
+
+      function createPath(group, data, className) {
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
+        path.setAttribute("fill", "none");
+        path.setAttribute("class", className);
+        path.setAttribute("points", buildPath(data));
+        group.appendChild(path);
+        return path;
+      }
+
+      function createPoints(group, data, series) {
+        data.forEach((d) => {
+          const cx = xForRank(d.rank);
+          const cy = yForRank(d.rank);
+          const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+          circle.setAttribute("cx", cx);
+          circle.setAttribute("cy", cy);
+          circle.setAttribute("r", 6);
+          circle.setAttribute("class", "ma-line-ranking-point " + series);
+          circle.dataset.sigla = d.sigla;
+          circle.dataset.nome = d.nome;
+          circle.dataset.rank = d.rank;
+          circle.dataset.serie = series === "brazil" ? "Top 6 do Brasil" : "Top 4 do Maranhão";
+          group.appendChild(circle);
+        });
+      }
+
+      createPath(groupBrazil, dataBrazil, "ma-line-ranking-path-brazil");
+      createPath(groupMa, dataMa, "ma-line-ranking-path-ma");
+      createPoints(groupBrazil, dataBrazil, "brazil");
+      createPoints(groupMa, dataMa, "ma");
+
+      let clickPinned = false;
+
+      function showTooltip(content, x, y) {
+        tooltip.innerHTML = content;
+        tooltip.hidden = false;
+
+        const paddingTooltip = 10;
+        const rect = tooltip.getBoundingClientRect();
+        let left = x + paddingTooltip;
+        let top = y + paddingTooltip;
+
+        if (left + rect.width > window.innerWidth - paddingTooltip) {
+          left = window.innerWidth - rect.width - paddingTooltip;
+        }
+        if (top + rect.height > window.innerHeight - paddingTooltip) {
+          top = y - rect.height - paddingTooltip;
+        }
+
+        tooltip.style.left = left + "px";
+        tooltip.style.top = top + "px";
+      }
+
+      function hideTooltip() {
+        if (!clickPinned) {
+          tooltip.hidden = true;
+        }
+      }
+
+      function attachEvents() {
+        const points = svg.querySelectorAll(".ma-line-ranking-point");
+
+        points.forEach((circle) => {
+          const sigla = circle.dataset.sigla;
+          const nome = circle.dataset.nome;
+          const rank = circle.dataset.rank;
+          const serie = circle.dataset.serie;
+
+          const baseContent =
+            "<strong>" +
+            nome +
+            "</strong><small>" +
+            serie +
+            "</small><small>Posição nacional: " +
+            rank +
+            "º lugar</small>";
+
+          circle.addEventListener("mouseenter", (e) => {
+            clickPinned = false;
+            showTooltip(baseContent, e.clientX, e.clientY);
+          });
+
+          circle.addEventListener("mousemove", (e) => {
+            if (!tooltip.hidden && !clickPinned) {
+              showTooltip(baseContent, e.clientX, e.clientY);
+            }
+          });
+
+          circle.addEventListener("mouseleave", hideTooltip);
+
+          circle.addEventListener("click", (e) => {
+            e.stopPropagation();
+            clickPinned = true;
+            showTooltip(baseContent, e.clientX, e.clientY);
+          });
+        });
+      }
+
+      attachEvents();
+
+      document.addEventListener("click", (e) => {
+        const isInside = e.target.closest(".ma-line-ranking-chart");
+        if (!isInside) {
+          clickPinned = false;
+          tooltip.hidden = true;
+        }
+      });
+
+      // Em telas de toque, priorizar clique/tap
+      if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {
+        const points = svg.querySelectorAll(".ma-line-ranking-point");
+        points.forEach((circle) => {
+          circle.removeEventListener("mouseenter", () => {});
+          circle.removeEventListener("mouseleave", () => {});
+        });
+      }
+    })();
+  </script>
+</section>
+                
+         
+                <p>
+                    A desigualdade regional entre universidades no Brasil, segundo o Ranking Universitário Folha (RUF) 2025, permanece evidente, com uma concentração expressiva das melhores instituições nas regiões Sul e Sudeste. Das 20 universidades com cursos mais bem avaliados, 11 estão no Sudeste e 5 no Sul, demonstrando a predominância dessas regiões em indicadores como pesquisa, inovação e qualidade de ensino.
+                </p>
+
+                <!-- PODCAST: -->
+                <div style="margin:35px 0;">
+                  <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/2L3OurjjF4eljTNwSErVm5?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <p class="image-caption">Entrevista com Ana Frazão e professores sobre desigualdade educacional no Brasil, com foco em diferenças regionais nas universidades. Spotify: Folha.</p>
+                <!-- FIM PODCAST -->
+
+                <p>
+                Por outro lado, o Nordeste apresenta avanços com algumas instituições de destaque, como a Universidade Federal de Pernambuco (UFPE), mas ainda enfrenta desafios estruturais e de financiamento que limitam sua competitividade frente às universidades das regiões mais ricas do país.
+                </p>
+
+                <p>
+                Mercados acadêmicos das regiões Norte e Centro-Oeste continuam marginalizados, com poucas universidades figurando entre as melhores do país, refletindo o desequilíbrio histórico e a distância regional que impactam a distribuição da excelência no ensino superior brasileiro.
+                </p>
+
+                <hr style="margin: 50px 0; border: none; border-top: 2px solid #e0e0e0;">
+
+                <!-- Tags finais -->
+                <p style="color: #666; font-size: 0.9em;">
+                  <strong>Tags:</strong>
+                  <a href="../tags/ciencia.html" style="color: #3498DB; font-weight: 600;">Ciência</a>
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Ilha da Ciência</h3>
+                    <p>Conhecimento que nasce no Maranhão e conecta o mundo</p>
+                </div>
+                <div class="footer-categories">
+                    <h4>Tópicos</h4>
+                    <ul>
+                        <li><a href="../tags/ciencia.html">Ciência</a></li>
+                        <li><a href="../tags/tecnologia.html">Tecnologia</a></li>
+                        <li><a href="../tags/meio-ambiente.html">Meio Ambiente</a></li>
+                        <li><a href="../tags/saude.html">Saúde</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ilha da Ciência. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
