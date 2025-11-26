@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maranhão avança na ciência, mas presença feminina segue desigual em espaços de prestígio - Ilha da Ciência</title>
+    <meta name="description" content="Mesmo com maioria nas bolsas e auxílios da FAPEMA, mulheres ainda ocupam menos de um quarto das cadeiras da Academia de Ciências do Maranhão.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Ilha da Ciência</h1>
+                <p class="slogan">Conhecimento que nasce no Maranhão e conecta o mundo</p>
+            </div>
+            <nav class="nav" id="mainNav">
+                <a href="../index.html" class="nav-link">Início</a>
+                <a href="../materias/textos.html" class="nav-link">Textos</a>
+                <a href="../tags/ciencia.html" class="nav-link active">Ciência</a>
+                <a href="../tags/tecnologia.html" class="nav-link">Tecnologia</a>
+                <a href="../tags/meio-ambiente.html" class="nav-link">Meio Ambiente</a>
+                <a href="../tags/saude.html" class="nav-link">Saúde</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Article Page -->
+    <article class="article-page">
+        <div class="container">
+            <!-- Article Header -->
+            <header class="article-header">
+                <a href="../tags/ciencia.html" class="article-category cat-ciencia">Ciência</a>
+                <h1 class="article-title">Maranhão avança na ciência, mas presença feminina segue desigual em espaços de prestígio</h1>
+                <p class="article-subtitle">Mesmo com maioria nas bolsas e auxílios da FAPEMA, mulheres ainda ocupam menos de um quarto das cadeiras da Academia de Ciências do Maranhão.</p>
+                <div class="article-meta">
+                    <span class="meta-item">📅 25 de novembro de 2025</span>
+                    <span class="meta-separator">•</span>
+                    <span class="meta-item">✍️ Por <strong>Lucas de Araújo</strong></span>
+                    <span class="meta-separator">•</span>
+                    <span class="meta-item">⏱️ 6 min de leitura</span>
+                </div>
+            </header>
+
+            <!-- Featured Image -->
+            <figure class="article-featured-image">
+                <img src="https://i.ibb.co/zVwz1Rvr/Radis221-mulheres-na-ciencia1.png" alt="Ilustração de mulheres cientistas em diferentes áreas do conhecimento">
+                <figcaption class="image-caption">Mulheres e meninas lutam por espaço e reconhecimento na ciência. Reprodução: Fiocruz.</figcaption>
+            </figure>
+
+            <!-- Article Content -->
+            <div class="article-content">
+                <p>O Maranhão vive um momento de fortalecimento científico, impulsionado pelo financiamento e apoio da Fundação de Amparo à Pesquisa e ao Desenvolvimento Científico e Tecnológico (FAPEMA). Os dados indicam uma participação expressiva das mulheres nesse cenário: <a href="https://revista.fapema.br/estudo-analisa-a-producao-cientifica-das-mulheres-no-maranhao-e-o-impacto-na-pesquisa/" target="_blank">elas representam 52,5% dos bolsistas e 46,2% dos pesquisadores de produtividade da Fundação</a>. Apesar disso, a presença feminina em espaços de reconhecimento e tomada de decisão ainda é reduzida. Na <a href="https://amc-ma.org/" target="_blank">Academia de Ciências do Maranhão (ACM)</a>, por exemplo, são 41 homens e apenas 13 mulheres entre os membros efetivos.</p>
+
+                <!-- INÍCIO DO CÓDIGO DO GRÁFICO AMC -->
+
+<section class="chart-section-amc">
+    <h2>Participação de mulheres na Academia de Ciências do Maranhão</h2>
+
+    <div class="charts-grid-amc">
+        <!-- Gráfico de Barras (número absoluto de membros) -->
+        <div class="chart-card-amc">
+            <h3>Distribuição de cadeiras por gênero (n)</h3>
+            <div class="chart-wrapper-amc">
+                <canvas id="amcBarChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Gráfico de Pizza (percentual de membros) -->
+        <div class="chart-card-amc">
+            <h3>Proporção de membros por gênero (%)</h3>
+            <div class="chart-wrapper-amc">
+                <canvas id="amcPieChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <p class="image-caption" style="text-align: center; margin-top: 16px;">
+        Gráfico elaborado pela Ilha da Ciência com dados da AMC.
+    </p>
+    <p class="image-caption" style="text-align: center; margin-top: 4px; margin-bottom: 24px;">
+        Para cada cadeira ocupada por uma mulher, aproximadamente 3 são ocupadas por homens.
+    </p>
+</section>
+
+<!-- Estilos específicos do bloco de gráficos (podem ir no seu CSS principal se preferir) -->
+<style>
+    .chart-section-amc {
+        margin: 40px 0;
+    }
+
+    .charts-grid-amc {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .chart-card-amc {
+        flex: 1 1 280px;
+        min-width: 0;
+        background: #f9fafb;
+        border-radius: 12px;
+        padding: 16px 16px 24px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    }
+
+    .chart-card-amc h3 {
+        font-size: 1rem;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .chart-wrapper-amc {
+        position: relative;
+        width: 100%;
+        height: 260px;
+    }
+
+    @media (max-width: 768px) {
+        .chart-card-amc {
+            flex: 1 1 100%;
+        }
+
+        .chart-wrapper-amc {
+            height: 220px;
+        }
+    }
+</style>
+
+<!-- Chart.js (lib para gráficos responsivos e interativos) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    (function () {
+        const homens = 41;
+        const mulheres = 13;
+        const total = homens + mulheres;
+
+        // Percentuais com uma casa decimal
+        const percHomens = Math.round((homens / total) * 1000) / 10;   // 75.9
+        const percMulheres = Math.round((mulheres / total) * 1000) / 10; // 24.1
+
+        // Cores
+        const corHomens = '#3498db';   // azul
+        const corMulheres = '#ff69b4'; // rosa
+
+        // Gráfico de Barras (valores absolutos)
+        const ctxBar = document.getElementById('amcBarChart').getContext('2d');
+        new Chart(ctxBar, {
+            type: 'bar',
+            data: {
+                labels: ['Homens', 'Mulheres'],
+                datasets: [{
+                    label: 'Número de membros',
+                    data: [homens, mulheres],
+                    backgroundColor: [corHomens, corMulheres],
+                    borderRadius: 8,
+                    maxBarThickness: 80
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                const valor = context.parsed.y;
+                                return valor + (valor === 1 ? ' membro' : ' membros');
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            stepSize: 5,
+                            font: {
+                                size: 12
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Número de membros'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Gráfico de Pizza (percentuais)
+        const ctxPie = document.getElementById('amcPieChart').getContext('2d');
+        new Chart(ctxPie, {
+            type: 'pie',
+            data: {
+                labels: ['Homens', 'Mulheres'],
+                datasets: [{
+                    data: [percHomens, percMulheres],
+                    backgroundColor: [corHomens, corMulheres],
+                    hoverOffset: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            usePointStyle: true,
+                            pointStyle: 'circle',
+                            padding: 16
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                const label = context.label || '';
+                                const valor = context.parsed;
+                                return label + ': ' + valor.toLocaleString('pt-BR', {
+                                    minimumFractionDigits: 1,
+                                    maximumFractionDigits: 1
+                                }) + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    })();
+</script>
+
+<!-- FIM DO CÓDIGO DO GRÁFICO AMC -->
+
+                <p>Essa contradição revela que, embora a produção científica feminina esteja consolidada, a representatividade institucional segue limitada. Para enfrentar esse desafio, iniciativas de promoção da participação de meninas e jovens mulheres em áreas de ciência, tecnologia, engenharia e matemática (STEM) têm ganhado destaque dentro e fora do estado.</p>
+
+                <p>Entre elas está o projeto maranhense <a href="https://portalpadrao.ufma.br/site/noticias/projeto-de-extensao-201csarmininas-cientistas201d-e-mapeado-e-analisado-pela-unesco-como-iniciativa-de-estimulo-de-meninas-e-mulheres-nas-areas-de-ciencia-tecnologia-engenharia-e-matematica" target="_blank">“Sarminina Cientistas: estimulando meninas do Maranhão para as carreiras de exatas e tecnologia”</a>, criado em 2018 na Universidade Federal do Maranhão. O programa foi identificado em um mapeamento realizado pela Unesco, que analisou ações voltadas à inserção de meninas em STEM no Brasil.</p>
+
+                <figure class="article-image">
+                    <img src="https://i.ibb.co/TxYrgH2H/O-nosso-grupo-est-de-cara-nova-Novo-visual-novas-ideias-e-muitas-experi-ncias-incr-veis-vem-p.jpg" alt="Participantes do projeto Sarmininas Cientistas">
+                    <figcaption class="image-caption">Projeto de extensão “Sarmininas Cientistas” é mapeado e analisado pela Unesco como iniciativa de estímulo de meninas e mulheres nas áreas de ciência, tecnologia, engenharia e matemática. Reprodução Instagram: Sarmininas Cientistas.</figcaption>
+                </figure>
+
+                <p>Ao estimular o ingresso de meninas nas áreas de exatas e tecnologia e enfrentar desigualdades históricas, ações como o Sarminina reforçam compromissos alinhados à Agenda 2030 da ONU, especialmente ao Objetivo de Desenvolvimento Sustentável 5, que visa alcançar a igualdade de gênero e acabar com todas as formas de discriminação contra mulheres e meninas. O avanço da ciência no Maranhão depende, também, de ampliar os espaços onde elas possam liderar, decidir e transformar.</p>
+
+                <h2>Saiba mais</h2>
+
+                <p>Confira o podcast <strong>Mulheres na Ciência</strong>.</p>
+
+                <div style="margin: 32px 0;">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/1MI3EW19L7obm0Ua8oiAsm?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
+                <p class="image-caption" style="text-align: center; margin-top: -18px; margin-bottom: 32px;">
+                    Em cada episódio, o podcast apresenta uma pesquisa desenvolvida por uma mulher e seus impactos na ciência. Reprodução: Spotify.
+                </p>
+
+                <hr style="margin: 50px 0; border: none; border-top: 2px solid #e0e0e0;">
+
+                <p style="color: #666; font-size: 0.9em;">
+                    <strong>Tags:</strong> 
+                    <a href="../tags/ciencia.html" style="color: #3498DB; font-weight: 600;">Ciência</a>
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Ilha da Ciência</h3>
+                    <p>Conhecimento que nasce no Maranhão e conecta o mundo</p>
+                </div>
+                <div class="footer-categories">
+                    <h4>Tópicos</h4>
+                    <ul>
+                        <li><a href="../tags/ciencia.html">Ciência</a></li>
+                        <li><a href="../tags/tecnologia.html">Tecnologia</a></li>
+                        <li><a href="../tags/meio-ambiente.html">Meio Ambiente</a></li>
+                        <li><a href="../tags/saude.html">Saúde</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ilha da Ciência. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
